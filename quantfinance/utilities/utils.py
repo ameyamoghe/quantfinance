@@ -256,6 +256,7 @@ def is_positive(s):
 
 def is_positive_integer(s):
     '''Return True if is_number(), positive, and int, else False'''
+    # this seems wrong
     if is_number(s) and is_positive(s):
         try:
             int(s)
